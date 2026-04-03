@@ -64,8 +64,8 @@ __pycache__/
 *.hdf5
 
 # === Ignore vshade vendors directory ===
-vshade/vendors/vulkan/include/
-vshade/vendors/vulkan/lib/
+# vshade/vendors/vulkan/include/
+# vshade/vendors/vulkan/lib/
 !vshade/vendors/ankerl/
 # === Ignore assimp directory ===
 vshade/vendors/assimp/
