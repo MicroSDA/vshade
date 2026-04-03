@@ -54,7 +54,7 @@ __pycache__/
 # === C++ build artifacts (if applicable) ===
 *.o
 *.obj
-*.so
+#*.so
 *.dll
 *.exe
 *.a
