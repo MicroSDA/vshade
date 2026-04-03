@@ -1,0 +1,11 @@
+
+# Global
+#common --noenable_bzlmod
+common --enable_workspace
+
+# Windows config
+build:windows --cxxopt=/std:c++17
+build:windows --cxxopt=/utf-8
+
+# Linux/macOS (Clang/GCC)
+build:linux --cxxopt=-std=c++17

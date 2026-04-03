@@ -1,0 +1,74 @@
+# === VSCode ===
+.vscode/
+*.code-workspace
+
+# === Bazel ===
+bazel-*
+!bazel-bin/
+!bazel-out/
+!bazel-testlogs/
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-workspace/
+bazel-cache/
+bazel-*.*
+
+# Optional: Bazel remote cache and sandbox artifacts
+**/bazel-*/execroot/
+**/bazel-*/sandbox/
+**/bazel-*/external/
+
+# === General ===
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# === OS-specific ===
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.DS_Store
+
+# Windows
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# === Python (if used in Bazel workspace) ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+
+# === C++ build artifacts (if applicable) ===
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+
+# === HDF5
+*.hdf5
+
+# === Ignore vshade vendors directory ===
+vshade/vendors/vulkan/include/
+vshade/vendors/vulkan/lib/
+!vshade/vendors/ankerl/
+# === Ignore assimp directory ===
+vshade/vendors/assimp/
+
+# === Ignore editor vendors directory ===
+editor/vendors/HDF5/
